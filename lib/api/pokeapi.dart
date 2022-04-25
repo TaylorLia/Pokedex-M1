@@ -7,7 +7,7 @@ class PokeAPI {
 
   // Função para retornar Pokemons da API pokeapi
   static Future<http.Response> getPokemon() =>
-      http.get(Uri.parse("https://pokeapi.co/api/v2/pokemon?limit=1200"));
+      http.get(Uri.parse("https://pokeapi.co/api/v2/pokemon?limit=250"));
 
   // Função para retornar Types da API pokeapi
   static Future<http.Response> getType() =>
